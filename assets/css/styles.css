@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tajawal:wght@300&display=swap');
+
+#header{
+    background-color: aquamarine;
+}
+header div{
+    height: 120px;
+    margin-bottom: 10px;
+}
+#section_nav{
+    clear: both;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    height: 180px;
+
+}
+#section_main{
+    background-color: brown;
+    height: 600px;
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: chocolate;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+
+
+    width: 75%;
+    margin: 1% auto;
+    background-color: darkgreen;
+}
+#header_nav{
+    background-color: darkcyan;
+}
+
+div h1{
+    background-color: blueviolet;
+    float: left;
+}
+header div nav{
+    float: right;
+    margin-top: 0;
+}
+
+#div_nav_center{
+    background-color: azure;
+    height: 120px;
+    text-align: center;
+    
+}
+.food_main{
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+#div_food_detail_left{
+    background-color: bisque;
+    height: 90%;
+    width: 49%;
+    float: left;
+    
+}
+#div_food_detail_right{
+    background-color: bisque;
+    height: 90%;
+    width: 50%;
+    float: right;
+}
