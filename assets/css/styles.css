@@ -2,6 +2,11 @@
 
 #header{
     background-color: aquamarine;
+    height: 6em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 header div{
     height: 120px;
@@ -12,7 +17,9 @@ header div{
     position: relative;
     background-color: blueviolet;
     margin-bottom: 10px;
-    height: 14em;
+    height: 18em;
+
+    font-size: 1em;
 
 }
 #section_main{
@@ -22,15 +29,16 @@ header div{
 }
 #footer{
     background-color: chocolate;
+    height: 6em;
+    font-size: 2em;
 }
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
-
     width: 75%;
     margin: 1% auto;
     background: url("../images/img_body.webp");
-    
+  
 }
 #header_nav{
     background-color: darkcyan;
@@ -38,10 +46,8 @@ body{
 
 div h1{
     background-color: blueviolet;
-    float: left;
 }
 header div nav{
-    float: right;
     margin-top: 0;
 }
 
@@ -50,7 +56,6 @@ header div nav{
     display:flex;
     width: 100%;
     flex-direction: row;
-    align-items: stretch;
     background-color: azure;
     height: 100%;
     text-align: center;
@@ -80,15 +85,10 @@ header div nav{
 
 
 /*media queries to correct screen size display*/
-@media screen and (max-width:2600px) {
-    body{
-        zoom: 100%;
-    }
-    
- }
+
  @media screen and (max-width:1600px) {
     body{
-        zoom: 95%;
+        zoom: 100%;
     }
     
  }
