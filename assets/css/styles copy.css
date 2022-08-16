@@ -11,7 +11,7 @@ header div{
     clear: both;
     background-color: blueviolet;
     margin-bottom: 10px;
-    height: 210px;
+    height: 180px;
 
 }
 #section_main{
@@ -29,8 +29,7 @@ body{
 
     width: 75%;
     margin: 1% auto;
-    background: url("../images/img_body.webp");
-    
+    background-color: darkgreen;
 }
 #header_nav{
     background-color: darkcyan;
@@ -46,15 +45,13 @@ header div nav{
 }
 
 #div_nav_center{
-    display:flex;
-    align-items: stretch;
     background-color: azure;
-    height: 150px;
+    height: 120px;
     text-align: center;
     
 }
 .food_main{
-    margin: 0 5px;
+    display: inline-block;
     width: 24%;
     height: 100%;
     text-align: center;
