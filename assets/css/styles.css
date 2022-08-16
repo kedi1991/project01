@@ -8,15 +8,16 @@ header div{
     margin-bottom: 10px;
 }
 #section_nav{
-    clear: both;
+    /*section for the nav containing the breakfast, lunch, dinner... divs*/
+    position: relative;
     background-color: blueviolet;
     margin-bottom: 10px;
-    height: 210px;
+    height: 14em;
 
 }
 #section_main{
     background-color: brown;
-    height: 600px;
+    height: 40em;
     margin-bottom: 10px;
 }
 #footer{
@@ -25,7 +26,6 @@ header div{
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
-
 
     width: 75%;
     margin: 1% auto;
@@ -46,23 +46,27 @@ header div nav{
 }
 
 #div_nav_center{
+    /*container containing - Dinner, lunch, breakfast ... divs */
     display:flex;
+    width: 100%;
+    flex-direction: row;
     align-items: stretch;
     background-color: azure;
-    height: 150px;
-    text-align: center;
-    
-}
-.food_main{
-    margin: 0 5px;
-    width: 24%;
     height: 100%;
     text-align: center;
-    background-color: bisque;
+    position: absolute;
+}
+.food_main{
+    /*for the individual food images on navigation*/
+    margin: 0 5px;
+    width: 24%;
+    height: 90%;
+    text-align: center;
+    background-color: rgb(90, 61, 26);
 }
 #div_food_detail_left{
     background-color: bisque;
-    height: 90%;
+    height: 100%;
     width: 49%;
     float: left;
     
@@ -73,3 +77,105 @@ header div nav{
     width: 50%;
     float: right;
 }
+
+
+/*media queries to correct screen size display*/
+@media screen and (max-width:2600px) {
+    body{
+        zoom: 100%;
+    }
+    
+ }
+ @media screen and (max-width:1600px) {
+    body{
+        zoom: 95%;
+    }
+    
+ }
+ @media screen and (max-width:1500px) {
+    body{
+        zoom: 90%;
+    }
+    
+ }
+ @media screen and (max-width:1300px) {
+    body{
+        zoom: 85%;
+    }
+    #section_nav{
+        height: 13em;
+    }
+    
+ }
+ @media screen and (max-width:1200px) {
+    body{
+        zoom: 75%;
+    }
+    
+ }
+ @media screen and (max-width:1080px) {
+    body{
+        zoom: 75%;
+        width: 78%;
+    }
+    #section_nav{
+        height: 12em;
+    }
+    
+ }
+ @media screen and (max-width:980px) {
+    body{
+        zoom: 70%;
+        width: 80%;
+    }
+    #section_nav{
+        height: 10em;
+    }
+ }
+ @media screen and (max-width:800px) {
+    body{
+        zoom: 65%;
+        width: 82%;
+    }
+    #section_nav{
+        height: 9em;
+    }
+    
+ }
+ @media screen and (max-width:700px) {
+    body{
+        zoom: 60%;
+        width: 88%;
+    }
+    
+ }
+ @media screen and (max-width:480px) {
+    body{
+        zoom: 65%;
+        width: 82%;
+    }
+    #section_nav{
+        height: 8em;
+    }
+    
+ }
+ 
+ @media screen and (max-width:450px) {
+    /*Go to mobile view*/
+    body{
+        zoom: 55%;
+        width: 95%;
+    }
+    #div_nav_center{
+        flex-direction: column;
+    }
+    .food_main{
+        width: 98%;
+        height: 24%;
+        margin: 1%;
+    }
+    #section_nav{
+        height: 40em;
+    }
+    
+ }
