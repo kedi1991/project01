@@ -1,35 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tajawal:wght@300&display=swap');
 
 #header{
-    background-color: aquamarine;
-    height: 6em;
+    background-color: rgb(0, 0, 0);
+    height: 5.5em;
+    color: aliceblue;
     font-size: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: .5em;
 }
 header div{
-    height: 120px;
-    margin-bottom: 10px;
+    height: 2em;
+    margin-top: 1.7em;
 }
 #section_nav{
     /*section for the nav containing the breakfast, lunch, dinner... divs*/
     position: relative;
-    background-color: blueviolet;
-    margin-bottom: 10px;
+    background-color: #e0dddd;
     height: 18em;
-
-    font-size: 1em;
+    margin: 0.5em 0;
+    padding: .5em;
+    font-size: 1em;flex-grow: 1;
 
 }
 #section_main{
-    background-color: brown;
+    background-color: #e0dddd;
     height: 40em;
     margin-bottom: 10px;
+    padding: 0.7em;
 }
 #footer{
-    background-color: chocolate;
+    background-color: rgb(0, 0, 0);
     height: 6em;
+    color: aliceblue;
     font-size: 2em;
 }
 body{
@@ -44,30 +48,42 @@ body{
     background-color: darkcyan;
 }
 
-div h1{
-    background-color: blueviolet;
-}
-header div nav{
-    margin-top: 0;
+h2{
+    font-size: 2.2em;
+    margin: 0;
 }
 
 #div_nav_center{
     /*container containing - Dinner, lunch, breakfast ... divs */
     display:flex;
+    justify-content: space-evenly;
     width: 100%;
     flex-direction: row;
-    background-color: azure;
-    height: 100%;
-    text-align: center;
-    position: absolute;
+    height: 83%;
 }
 .food_main{
     /*for the individual food images on navigation*/
-    margin: 0 5px;
+    display: flex;
     width: 24%;
-    height: 90%;
     text-align: center;
-    background-color: rgb(90, 61, 26);
+}
+
+#breakfast{
+    position: relative;
+    background: url("/assets/images/img_breakfast.webp") no-repeat;
+    background-size: cover;
+}
+#lunch{
+    background: url("/assets/images/img_lunch.jpg") no-repeat;
+    background-size: cover;
+}
+#dinner{
+    background: url("/assets/images/img_dinner.jpg") no-repeat;
+    background-size: cover;
+}
+#events{
+    background: url("/assets/images/img_events.jpg") no-repeat;
+    background-size: cover;
 }
 #div_food_detail_left{
     background-color: bisque;
@@ -83,87 +99,190 @@ header div nav{
     float: right;
 }
 
-
 /*media queries to correct screen size display*/
-
- @media screen and (max-width:1600px) {
+ @media screen and (max-width:1680px) {
     body{
-        zoom: 100%;
+        zoom: 98%;
     }
-    
+    #section_nav{
+        height: 17em;
+    }
+    #div_nav_center{
+        height: 82%;
+    }
  }
- @media screen and (max-width:1500px) {
+ @media screen and (max-width:1550px) {
     body{
         zoom: 90%;
     }
-    
+    #section_nav{
+        height: 17em;
+    }
+    #div_nav_center{
+        height: 82%;
+    }
  }
- @media screen and (max-width:1300px) {
+ @media screen and (max-width:1440px) {
     body{
         zoom: 85%;
     }
     #section_nav{
-        height: 13em;
+        height: 17em;
+    }
+    #div_nav_center{
+        height: 82%;
     }
     
  }
- @media screen and (max-width:1200px) {
+ @media screen and (max-width:1380px) {
     body{
-        zoom: 75%;
-    }
-    
- }
- @media screen and (max-width:1080px) {
-    body{
-        zoom: 75%;
-        width: 78%;
+        zoom: 80%;
     }
     #section_nav{
-        height: 12em;
+        height: 17em;
+    }
+    #div_nav_center{
+        height: 82%;
     }
     
  }
- @media screen and (max-width:980px) {
+ @media screen and (max-width:1260px) {
+    body{
+        zoom: 78%;
+    }
+    #section_nav{
+        height: 16.5em;
+    }
+    #div_nav_center{
+        height: 82%;
+    }
+    @media screen and (max-width:1100px) {
+        body{
+            zoom: 75%;
+            width: 78%
+        }
+        #section_nav{
+            height: 15.5em;
+        }
+        #div_nav_center{
+            height: 82%;
+        }
+        
+     }
+ }
+ @media screen and (max-width:1050px) {
+    body{
+        zoom: 73%;
+    }
+    #section_nav{
+        height: 15.5em;
+    }
+    #div_nav_center{
+        height: 82%;
+    }
+    
+ }
+ @media screen and (max-width:1000px) {
     body{
         zoom: 70%;
-        width: 80%;
+        width: 85%;
     }
     #section_nav{
-        height: 10em;
+        height: 15.2em;
     }
+    #div_nav_center{
+        height: 82%;
+    }
+    
+ }
+ @media screen and (max-width:950px) {
+    body{
+        zoom: 69%;
+    }
+    #section_nav{
+        height: 15em;
+    }
+    #div_nav_center{
+        height: 82%;
+    }
+    
+ }
+ @media screen and (max-width:900px) {
+    body{
+        zoom: 68%;
+    }
+    #section_nav{
+        height: 14em;
+    }
+    #div_nav_center{
+        height: 81%;
+    }
+    
  }
  @media screen and (max-width:800px) {
     body{
         zoom: 65%;
-        width: 82%;
     }
     #section_nav{
-        height: 9em;
+        height: 14em;
+    }
+    #div_nav_center{
+        height: 80%;
     }
     
  }
- @media screen and (max-width:700px) {
+ @media screen and (max-width:750px) {
     body{
         zoom: 60%;
-        width: 88%;
-    }
-    
- }
- @media screen and (max-width:480px) {
-    body{
-        zoom: 65%;
-        width: 82%;
     }
     #section_nav{
-        height: 8em;
+        height: 14em;
+    }
+    #div_nav_center{
+        height: 80%;
     }
     
  }
- 
- @media screen and (max-width:450px) {
-    /*Go to mobile view*/
+ @media screen and (max-width:620px) {
+    body{
+        zoom: 57%;
+    }
+    #section_nav{
+        height: 14em;
+    }
+    #div_nav_center{
+        height: 80%;
+    }
+    
+ }
+ @media screen and (max-width:580px) {
     body{
         zoom: 55%;
+    }
+    #section_nav{
+        height: 13em;
+    }
+    #div_nav_center{
+        height: 77%;
+    }
+    
+ }
+ @media screen and (max-width:550px) {
+    body{
+        zoom: 50%;
+    }
+    #section_nav{
+        height: 13em;
+    }
+    #div_nav_center{
+        height: 77%;
+    }
+    
+ }
+ @media screen and (max-width:460px) {
+    /*Go to mobile view*/
+    body{
+        zoom: 70%;
         width: 95%;
     }
     #div_nav_center{
@@ -172,10 +291,63 @@ header div nav{
     .food_main{
         width: 98%;
         height: 24%;
-        margin: 1%;
+        margin: 0.5em;
+        overflow: hidden;
     }
     #section_nav{
-        height: 40em;
+        height: 50em;
     }
-    
  }
+
+ /*animations -----change the name ---*/
+ 
+ /*special classes*/
+.nav_img_original{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    text-align: center;
+}
+
+#events_shadow:hover{
+
+        color: honeydew;
+        font: 2em bolder;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+}
+#dinner_shadow:hover{
+
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#lunch_shadow:hover{
+
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#breakfast_shadow:hover{
+
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*details for the image hover*/
+#div_food_detail_left{
+    background: url("/assets/images/img_event_cover.jpg") no-repeat;
+    background-size: cover;
+}
