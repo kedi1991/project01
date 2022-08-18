@@ -31,11 +31,21 @@ header div{
     padding: 0.7em;
 }
 #footer{
+    text-align: center;
     background-color: rgb(0, 0, 0);
     height: 6em;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 1em;
 }
+ul li {
+    display: inline;
+}
+
+ul{
+    margin-top: 2px;
+    text-align: center;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
@@ -51,6 +61,11 @@ body{
 h2{
     font-size: 2.2em;
     margin: 0;
+}
+p{
+    font-size: 2.2em;
+  padding: .6em;
+  text-align: justify;
 }
 
 #div_nav_center{
@@ -86,14 +101,11 @@ h2{
     background-size: cover;
 }
 #div_food_detail_left{
-    background-color: bisque;
     height: 100%;
     width: 49%;
     float: left;
-    
 }
 #div_food_detail_right{
-    background-color: bisque;
     height: 90%;
     width: 50%;
     float: right;
