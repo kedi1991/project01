@@ -33,12 +33,28 @@ header div{
 #footer{
     text-align: center;
     background-color: rgb(0, 0, 0);
-    height: 6em;
+    height: auto;
     color: aliceblue;
     font-size: 1em;
 }
+
+#footer-nav-container{
+    text-align: right;
+    padding: .2em;
+    font-weight: bolder;
+}
 ul li {
     display: inline;
+}
+
+#footer ul li a {
+    color: aliceblue;
+    padding: .2em 1em .2em 1em;
+    font-weight: bold;
+}
+
+#footer div ul {
+    margin: .2em;
 }
 
 ul{
@@ -55,8 +71,39 @@ body{
   
 }
 #header_nav{
-    background-color: darkcyan;
+    flex-direction: row;
 }
+#header_nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 .4em;
+}
+#header_nav a:hover{
+    border: 1px rgb(61, 61, 60) solid;
+    border-radius: .4em;
+    font-weight: bolder;
+    background-color: rgb(61, 61, 60);
+}
+input[type="search"]{
+    font-size: .7em;
+    border: 1px rgb(61, 61, 60) solid;
+    border-radius: .4em;
+    background-color:  rgb(61, 61, 60) solid;;
+}
+
+#footer-nav{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    box-sizing: border-box;
+    text-align: right;
+}
+#footer-nav:hover{
+    border: 1px rgb(61, 61, 60) solid;
+    border-radius: .4em;
+    background-color: rgb(61, 61, 60);
+}
+
 
 h2{
     font-size: 2.2em;
