@@ -485,11 +485,10 @@ input[type="button"]{
     min-height: 20em;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 90% 10%;
+    grid-template-rows: 80% 20%;
 }
 
 #food-img{
-    background-color: chocolate;
     margin: .5em;
 }
 #food-content{
@@ -498,3 +497,11 @@ input[type="button"]{
 #food-cost{
     background-color: cornflowerblue;
 }
+
+#div-breakfast #b00 {
+   /**background: url("/assets/images/breakfast/african-tea.jpg") no-repeat;
+   background-size: auto;
+   background-clip: border-box;**/
+
+}
+
