@@ -477,10 +477,10 @@ input[type="button"]{
     display:grid;
     padding: 0 auto;
     grid-template-columns: 50% 50%;
-    background-color: aquamarine;
 }
-.food-box{margin: 1em;
-    background-color: brown;
+.food-box{
+    background-color: lightgray;
+    margin: .3em;
     min-height: 20em;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -491,10 +491,17 @@ input[type="button"]{
     margin: .5em;
 }
 #food-content{
-    background-color: burlywood;
+    margin: .3em;
+    font-size: 1.5em;
+}
+#food-content label{
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 #food-cost{
-    background-color: cornflowerblue;
+    font-size: 2.6em;
+    font-weight: bolder;
+    margin: 0 auto;
 }
 
 #div-breakfast #b00 {
