@@ -156,6 +156,7 @@ p{
     background-size: cover;
 }
 #div_food_detail_left{
+    background-color: gold;
     height: 100%;
     width: 49%;
     float: left;
