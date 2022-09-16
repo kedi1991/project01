@@ -470,3 +470,31 @@ input[type="button"]{
     width: 30%;
     height: 2.2em;
 }
+
+/***
+****Styling for the detailed food items
+**/
+.foods-template{
+    display:grid;
+    padding: 0 auto;
+    grid-template-columns: 50% 50%;
+    background-color: aquamarine;
+}
+.food-box{margin: 1em;
+    background-color: brown;
+    min-height: 20em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90% 10%;
+}
+
+#food-img{
+    background-color: chocolate;
+    margin: .5em;
+}
+#food-content{
+    background-color: burlywood;
+}
+#food-cost{
+    background-color: cornflowerblue;
+}
