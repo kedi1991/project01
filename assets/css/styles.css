@@ -2,8 +2,6 @@
 
 /***
 ****Styles for the Home page and common sections (header and footer)
-****
-****
 ***/
 #header{
     background-color: rgb(0, 0, 0);
@@ -72,7 +70,7 @@ body{
     font-family: 'Tajawal', sans-serif;
     width: 75%;
     margin: 1% auto;
-    background: url("../images/img_body.webp");
+    background: url("../images/img_body.webp") no-repeat fixed;
   
 }
 #header_nav{
