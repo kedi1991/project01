@@ -507,13 +507,22 @@ input[type="button"]{
     font-size: 1.5em;
 }
 #food-content label{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bolder;
+    font-family: cursive;
 }
 #food-cost{
     font-size: 2.6em;
     font-weight: bolder;
     margin: 0 auto;
+    grid-column: 1 / span 2;
+    grid-row: second-line / 2;
+
+        width: 100%;
+        background-color: #e5e5e5;
+        margin-top: auto;
+        text-align: center;
+   
 }
 
 #div-breakfast #b00 {
