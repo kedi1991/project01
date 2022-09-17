@@ -143,19 +143,19 @@ p{
 }
 #breakfast{
     position: relative;
-    background: url("assets/images/nav/img_breakfast.webp") no-repeat;
+    background: url("../images/nav/img_breakfast.webp") no-repeat;
     background-size: cover;
 }
 #lunch{
-    background: url("assets/images/nav/img_lunch.jpg") no-repeat;
+    background: url("../images/nav/img_lunch.jpg") no-repeat;
     background-size: cover;
 }
 #dinner{
-    background: url("assets/images/nav/img_dinner.jpg") no-repeat;
+    background: url("../images/nav/img_dinner.jpg") no-repeat;
     background-size: cover;
 }
 #events{
-    background: url("assets/images/nav/img_events.jpg") no-repeat;
+    background: url("../images/nav/img_events.jpg") no-repeat;
     background-size: cover;
 }
 #div_food_detail_left{
