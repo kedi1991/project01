@@ -3,6 +3,9 @@
 /***
 ****Styles for the Home page and common sections (header and footer)
 ***/
+.active{
+    border-bottom: 0.7em green solid;
+}
 #header{
     background-color: rgb(0, 0, 0);
     height: 5.5em;
