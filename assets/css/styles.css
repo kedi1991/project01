@@ -28,14 +28,17 @@ header div{
     margin: 0.5em 0;
     padding: .5em;
     font-size: 1em;flex-grow: 1;
-
 }
 #section_main{
-    background-color: #e0dddd;
     min-height: 40em;
     margin-bottom: 10px;
     padding: 0.7em;
 }
+.main-background{
+    background: url("../images/events/main-photo.jpg") no-repeat;
+    background-size: cover;
+}
+
 #footer{
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -159,15 +162,20 @@ p{
     background-size: cover;
 }
 #div_food_detail_left{
-    background-color: gold;
     height: 100%;
     width: 49%;
     float: left;
 }
 #div_food_detail_right{
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
     height: 90%;
     width: 50%;
+    border-radius: 2em;
     float: right;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /*media queries to correct screen size display*/
@@ -483,6 +491,7 @@ input[type="button"]{
 }
 .food-box{
     background-color: #eeeaea;
+    border-radius: .6em;
     margin: .3em;
     min-height: 20em;
     display: grid;
