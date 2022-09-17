@@ -17,7 +17,7 @@
             <nav>
                 <div id="header_nav">
                     <a href="../index.html">Home</a>
-                    <a href="contact.html">Contact us</a>
+                    <a href="contact.html" class="active-nav">Contact us</a>
                     <input type="search" placeholder="Search food">
                 </div>
             </nav>
@@ -57,33 +57,34 @@
         </a>
     </div>
 </nav>
+<!--start of contact form section-->
     <section id="section_main">
         <div id="div-contact">
             <label id="contact-title">Contact form</label>
-
-            <div id="div-contact-top">
-                <div id="contact-left">
-                    <label>Name</label><br>
-                    <input type="text"><br>
-                    <label>Email address</label><br>
-                    <input type="email">
+            <form action="#">
+                <div id="div-contact-top">
+                    <div id="contact-left">
+                        <label>Name</label><br>
+                        <input type="text"><br>
+                        <label>Email address</label><br>
+                        <input type="email">
+                    </div>
+                    <div id="contact-right">
+                        <label>Phone</label><br>
+                        <input type="tel"><br>
+                        <label>Reason for query</label><br>
+                        <select id="contact-query">
+                            <option>Make order/ reservation</option>
+                            <option>Complaint</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
                 </div>
-                <div id="contact-right">
-                    <label>Phone</label><br>
-                    <input type="tel"><br>
-                    <label>Reason for query</label><br>
-                    <select id="contact-query">
-                        <option>Make order/ reservation</option>
-                        <option>Complaint</option>
-                        <option>Other</option>
-                    </select>
+                <div id="div-contact-bottom">
+                    <textarea></textarea>
                 </div>
-            </div>
-            <div id="div-contact-bottom">
-                <textarea></textarea>
-            </div>
-            <input type="button" value="Submit">
-
+                <button type="submit" value="Submit">Send</button>
+            </form>
         </div>
     </section>
     <footer id="footer">
@@ -117,8 +118,6 @@
             <a id="footer-nav" href="#header">Back to top</a>
         </div>
     </footer>
-
     <script src="https://kit.fontawesome.com/8fd070b1a5.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

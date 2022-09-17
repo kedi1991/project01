@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tajawal:wght@300&display=swap');
 
-/***
-****Styles for the Home page and common sections (header and footer)
-***/
+/**Styles for the Home page and common sections (header and footer)**/
 .active{
     border-bottom: 0.7em green solid;
+}
+.active-nav{
+    border: 1px rgb(61, 61, 60) solid;
+    border-radius: .4em;
+    font-weight: bolder;
+    background-color: rgb(61, 61, 60);
+}
+h1{
+    font-family: system-ui;
 }
 #header{
     background-color: rgb(0, 0, 0);
@@ -21,7 +28,6 @@ header div{
     margin-top: 1.7em;
 }
 #section_nav{
-    /*section for the nav containing the breakfast, lunch, dinner... divs*/
     position: relative;
     background-color: #e0dddd;
     height: 18em;
@@ -38,7 +44,6 @@ header div{
     background: url("../images/events/main-photo.jpg") no-repeat;
     background-size: cover;
 }
-
 #footer{
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -46,7 +51,6 @@ header div{
     color: aliceblue;
     font-size: 1em;
 }
-
 #footer-nav-container{
     text-align: right;
     padding: .2em;
@@ -55,29 +59,24 @@ header div{
 ul li {
     display: inline;
 }
-
 #footer ul li a {
     color: aliceblue;
     padding: .2em 1em .2em 1em;
     font-weight: bold;
 }
-
 #footer div ul {
     margin: .2em;
 }
-
 ul{
     margin-top: 2px;
     text-align: center;
 }
-
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
     width: 75%;
     margin: 1% auto;
     background: url("../images/nav/img_body.webp") no-repeat fixed;
-  
 }
 #header_nav{
     flex-direction: row;
@@ -99,7 +98,6 @@ input[type="search"]{
     border-radius: .4em;
     background-color:  rgb(61, 61, 60) solid;;
 }
-
 #footer-nav{
     text-decoration: none;
     color: aliceblue;
@@ -112,8 +110,6 @@ input[type="search"]{
     border-radius: .4em;
     background-color: rgb(61, 61, 60);
 }
-
-
 h2{
     font-size: 2.2em;
     margin: 0;
@@ -123,9 +119,7 @@ p{
   padding: .6em;
   text-align: justify;
 }
-
 #div_nav_center{
-    /*container containing - Dinner, lunch, breakfast ... divs */
     display:flex;
     justify-content: space-evenly;
     width: 100%;
@@ -133,7 +127,6 @@ p{
     height: 83%;
 }
 .food_main{
-    /*for the individual food images on navigation*/
     display: flex;
     width: 100%;
     height: 100%;
@@ -177,7 +170,6 @@ p{
     float: right;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /*media queries to correct screen size display*/
  @media screen and (max-width:1680px) {
     body{
@@ -211,7 +203,6 @@ p{
     #div_nav_center{
         height: 82%;
     }
-    
  }
  @media screen and (max-width:1380px) {
     body{
@@ -223,7 +214,6 @@ p{
     #div_nav_center{
         height: 82%;
     }
-    
  }
  @media screen and (max-width:1260px) {
     body{
@@ -245,8 +235,7 @@ p{
         }
         #div_nav_center{
             height: 82%;
-        }
-        
+        } 
      }
  }
  @media screen and (max-width:1050px) {
@@ -259,7 +248,6 @@ p{
     #div_nav_center{
         height: 82%;
     }
-    
  }
  @media screen and (max-width:1000px) {
     body{
@@ -272,7 +260,6 @@ p{
     #div_nav_center{
         height: 82%;
     }
-    
  }
  @media screen and (max-width:950px) {
     body{
@@ -284,7 +271,6 @@ p{
     #div_nav_center{
         height: 82%;
     }
-    
  }
  @media screen and (max-width:900px) {
     body{
@@ -296,7 +282,6 @@ p{
     #div_nav_center{
         height: 81%;
     }
-    
  }
  @media screen and (max-width:800px) {
     body{
@@ -308,7 +293,6 @@ p{
     #div_nav_center{
         height: 80%;
     }
-    
  }
  @media screen and (max-width:750px) {
     body{
@@ -320,7 +304,6 @@ p{
     #div_nav_center{
         height: 80%;
     }
-    
  }
  @media screen and (max-width:620px) {
     body{
@@ -332,7 +315,6 @@ p{
     #div_nav_center{
         height: 80%;
     }
-    
  }
  @media screen and (max-width:580px) {
     body{
@@ -344,7 +326,6 @@ p{
     #div_nav_center{
         height: 77%;
     }
-    
  }
  @media screen and (max-width:550px) {
     body{
@@ -356,7 +337,6 @@ p{
     #div_nav_center{
         height: 77%;
     }
-    
  }
  @media screen and (max-width:460px) {
     /*Go to mobile view*/
@@ -377,10 +357,6 @@ p{
         height: 50em;
     }
  }
-
- /*animations -----change the name ---*/
- 
- /*special classes*/
 .nav_img_original{
     background-color: rgba(0, 0, 0, 0.5);
     color: honeydew;
@@ -388,9 +364,7 @@ p{
     width: 100%;
     text-align: center;
 }
-
 #events_shadow:hover{
-
         color: honeydew;
         font: 2em bolder;
         width: 100%;
@@ -399,7 +373,6 @@ p{
         background-color: rgba(0, 0, 0, 0.7);
 }
 #dinner_shadow:hover{
-
     color: honeydew;
     font: 2em bolder;
     width: 100%;
@@ -408,7 +381,6 @@ p{
     background-color: rgba(0, 0, 0, 0.7);
 }
 #lunch_shadow:hover{
-
     color: honeydew;
     font: 2em bolder;
     width: 100%;
@@ -417,7 +389,6 @@ p{
     background-color: rgba(0, 0, 0, 0.7);
 }
 #breakfast_shadow:hover{
-
     color: honeydew;
     font: 2em bolder;
     width: 100%;
@@ -425,18 +396,11 @@ p{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
-/*details for the image hover*/
 #div_food_detail_left{
     background: url("/assets/images/img_event_cover.jpg") no-repeat;
     background-size: cover;
 }
-
-/***
-****Styles for the contact page
-****
-****
-***/
-
+/**Styles for the contact page**/
 #div-contact{
     display:grid;
     background-color: rgb(148, 132, 132);
@@ -460,7 +424,6 @@ p{
     height: 1.9em;
     width: 100%;
 }
-
 #div-contact-top{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -475,15 +438,10 @@ textarea{
     resize: vertical;
     height: 10em;
 }
-
-input[type="button"]{
-    width: 30%;
-    height: 2.2em;
+button{
+    font-size: 1.3em;
 }
-
-/***
-****Styling for the detailed food items
-**/
+/***Styling for the detailed food items**/
 .foods-template{
     display:grid;
     padding: 0 auto;
@@ -498,7 +456,6 @@ input[type="button"]{
     grid-template-columns: 50% 50%;
     grid-template-rows: 80% 20%;
 }
-
 #food-img{
     margin: .5em;
 }
@@ -517,18 +474,8 @@ input[type="button"]{
     margin: 0 auto;
     grid-column: 1 / span 2;
     grid-row: second-line / 2;
-
         width: 100%;
         background-color: #e5e5e5;
         margin-top: auto;
         text-align: center;
-   
 }
-
-#div-breakfast #b00 {
-   /**background: url("/assets/images/breakfast/african-tea.jpg") no-repeat;
-   background-size: auto;
-   background-clip: border-box;**/
-
-}
-
