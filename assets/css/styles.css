@@ -482,7 +482,7 @@ input[type="button"]{
     grid-template-columns: 50% 50%;
 }
 .food-box{
-    background-color: lightgray;
+    background-color: #eeeaea;
     margin: .3em;
     min-height: 20em;
     display: grid;
