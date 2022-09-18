@@ -383,6 +383,9 @@ width: 85%;
     body {
         width: 95%;
     }
+    #div_food_detail_right{
+        font-size: smaller;
+    }
 
 
     #section_nav {
@@ -434,7 +437,7 @@ width: 85%;
         width: 90%;
     }
     #div_food_detail_right{
-        font-size: xx-small;
+        font-size: smaller;
     }
 
     #section_nav {
