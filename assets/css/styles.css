@@ -385,6 +385,7 @@ width: 85%;
     }
     #header h1{
         font-size: xx-large;
+        color: aqua;
     }
 }
 @media screen and (max-width:1200px) {
