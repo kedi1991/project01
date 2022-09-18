@@ -270,7 +270,7 @@ p {
     #section_nav {
         height: 16.5em;
     }
-
+   
     #div_nav_center {
         height: 82%;
     }
@@ -331,6 +331,9 @@ p {
 
     #div_nav_center {
         height: 82%;
+    }
+    #header{
+        font-size: x-large;
     }
 }
 
