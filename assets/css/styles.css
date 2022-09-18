@@ -206,6 +206,8 @@ p {
 }
 
 /*media queries to correct screen size display*/
+
+/**
 @media screen and (max-width:1680px) {
     body {
         zoom: 98%;
@@ -221,9 +223,7 @@ p {
 }
 
 @media screen and (max-width:1550px) {
-    body {
-        zoom: 90%;
-    }
+
 
     #section_nav {
         height: 17em;
@@ -235,10 +235,7 @@ p {
 }
 
 @media screen and (max-width:1440px) {
-    body {
-        zoom: 85%;
-    }
-
+   
     #section_nav {
         height: 17em;
     }
@@ -249,9 +246,6 @@ p {
 }
 
 @media screen and (max-width:1380px) {
-    body {
-        zoom: 80%;
-    }
 
     #section_nav {
         height: 17em;
@@ -263,9 +257,7 @@ p {
 }
 
 @media screen and (max-width:1260px) {
-    body {
-        zoom: 78%;
-    }
+
 
     #section_nav {
         height: 16.5em;
@@ -277,7 +269,6 @@ p {
 
     @media screen and (max-width:1100px) {
         body {
-            zoom: 75%;
             width: 78%
         }
 
@@ -292,9 +283,7 @@ p {
 }
 
 @media screen and (max-width:1050px) {
-    body {
-        zoom: 73%;
-    }
+  
 
     #section_nav {
         height: 15.5em;
@@ -305,10 +294,10 @@ p {
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
     body {
-        zoom: 70%;
-        width: 85%;
+font-size: smaller;        
+width: 85%;
     }
 
     #section_nav {
@@ -321,9 +310,7 @@ p {
 }
 
 @media screen and (max-width:950px) {
-    body {
-        zoom: 69%;
-    }
+ 
 
     #section_nav {
         height: 15em;
@@ -338,9 +325,7 @@ p {
 }
 
 @media screen and (max-width:900px) {
-    body {
-        zoom: 68%;
-    }
+   
 
     #section_nav {
         height: 14em;
@@ -352,10 +337,7 @@ p {
 }
 
 @media screen and (max-width:800px) {
-    body {
-        zoom: 65%;
-    }
-
+  
     #section_nav {
         height: 14em;
     }
@@ -366,9 +348,7 @@ p {
 }
 
 @media screen and (max-width:750px) {
-    body {
-        zoom: 60%;
-    }
+ 
 
     #section_nav {
         height: 14em;
@@ -380,9 +360,7 @@ p {
 }
 
 @media screen and (max-width:620px) {
-    body {
-        zoom: 57%;
-    }
+ 
 
     #section_nav {
         height: 14em;
@@ -392,10 +370,10 @@ p {
         height: 80%;
     }
 }
-
-@media screen and (max-width:580px) {
+***/
+@media screen and (max-width:4000px) {
     body {
-        zoom: 55%;
+        width: 80%;
     }
 
     #section_nav {
@@ -404,13 +382,52 @@ p {
 
     #div_nav_center {
         height: 77%;
+    }
+    #header nav{
+    }
+}
+@media screen and (max-width:1200px) {
+    body {
+        font-size: x-small;
+        width: 80%;
+    }
+
+    #section_nav {
+        height: 13em;
+    }
+
+    #div_nav_center {
+        font-size: xx-small;
+        height: 77%;
+    }
+    #header nav{
+        font-size: large;
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:1024px) {
     body {
-        zoom: 50%;
-        font-size: smaller;
+        font-size: x-small;
+        width: 80%;
+    }
+
+    #section_nav {
+        height: 13em;
+    }
+
+    #div_nav_center {
+        font-size: xx-small;
+        height: 77%;
+    }
+    #header nav{
+        font-size: large;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    body {
+        width: 80%;
     }
 
     #section_nav {
@@ -419,15 +436,36 @@ p {
 
     #div_nav_center {
         height: 77%;
+    }
+    #header nav{
+      font-size: x-small;
+    }
+}
+
+@media screen and (max-width:720px) {
+    body {
+        font-size: x-small;
+        width: 80%;
+    }
+
+    #section_nav {
+        height: 13em;
+    }
+
+    #div_nav_center {
+        font-size: xx-small;
+        height: 77%;
+    }
+    #header nav{
+        font-size: x-small;
     }
 }
 
 @media screen and (max-width:460px) {
 
     body {
-        zoom: 70%;
         width: 95%;
-
+        font-size: x-small;
     }
 
     #header{
@@ -438,6 +476,11 @@ p {
     #header div{
         height: auto;
         margin-top: .1em;
+        font-size: initial;
+
+    }
+    #header h1{
+        font-size: xx-large;
     }
     #div_nav_center {
         flex-direction: column;
@@ -464,6 +507,8 @@ p {
         height: auto;
     }
 }
+
+/**End of media queries**/
 
 .nav_img_original {
     background-color: rgba(0, 0, 0, 0.5);
