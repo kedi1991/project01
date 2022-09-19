@@ -21,13 +21,8 @@ Table of Contents
    9.2 via github pages
 
 10. Releases
-ver1: release date 17/09/2022
 
-ver2: release date 25/09/2022
-- fixed media queries for mobile and tablet display sizes
-- edited the contact form 
-
-10. credits
+11. credits
 
 
 1. Purpose of the project
@@ -91,5 +86,47 @@ c) Contact Page
 9. Deployment
    9.1 via gitpod
    9.2 via github pages
+
+10. Version history
+
+ver1: release date 17/09/2022
+
+ver2: release date 25/09/2022
+- fixed media queries for mobile and tablet display sizes
+- edited the contact form 
+
+
 10. credits
 
+Contributors:
+
+IMAGES AND RECIPE:
+pinterest
+Top Ten Uganda
+Nnyonyi.com
+newvision.co.ug
+ni;epost.co.ug
+Africa food Network
+alamy.com
+tourguideuganda.com
+https://sarasglobalcooking.blogspot.com/
+https://www.alamy.com/
+daily monitor uganda
+https://4foodssakeeat.wordpress.com/
+wikipedia
+https://www.tasteatlas.com/
+chillies.co.ug
+
+11. software used
+software:
+-google lens
+-paint 3d
+-photos
+-balsamick
+-google develop tools
+-gitpod
+-github
+-firefox
+-windows snipping tool
+-https://websitemockupgenerator.com/
+-https://www.img2go.com/
