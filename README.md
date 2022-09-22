@@ -1,15 +1,16 @@
-Kedi's restaurant
-![mockup for desktop home page](./assets/project-design/stories/mockup.png)
+**<h1>Kedi's restaurant</h1>**
+![mockup for desktop home page](./assets/images/project-design/stories/mockup.png)
 
 
-Table of Contents
+**<h2>Table of Contents</h2>**
+<hr>
+
 1. Purpose of the project
 2. user stories
 3. Features
 4. future features
 5. Typography and color scheme
 6. wireframes
-===== Before Code/implementation ===
 7. Technology
 8. testing
    8.1 code validation
@@ -19,10 +20,9 @@ Table of Contents
 9. Deployment
    9.1 via gitpod
    9.2 via github pages
-
 10. Releases
-
 11. credits
+<br>
 
 
 1. Purpose of the project
@@ -30,6 +30,23 @@ Table of Contents
 Project aims to sell Ugandan dishes to the people of Alicante, Spain while spreading the culture of the Ugandan people. With this, there will be an indirect boost in tourism by those who would like to visit Uganda and have an experience.
 
 2. user stories
+
+The site is organised with graphical content to aid new users in navigating the site with ease.
+The home page contains a visible header with navigation (A) to a contact form as well as the same home page incase the user is on another page. Below the Header, we have an image navigation bar (B) with links to all 4 categories of foods (Breakfast, lunch and dinner - having the same offers, and Events- parties or other ocassions) as shown in the images below.
+
+![image of header, header navigation and central image navigation](./assets/images/project-design/stories/story-a.png)
+
+On making a selection from the food categories in image navigation, the suer will be redirected to the detailed list of all listed foods. The details will include the name (D), image and description (C), and price (E) as shown below.
+
+![image of food details](./assets/images/project-design/stories/story-b.png)
+
+In case of any need of contacting the restaurant, there are contact details and social media links listed on the footer (G) section and a link to the contact form (F) on the header as well.
+
+![footer image](./assets/images/project-design/stories/story-c.png)
+
+
+![footer image](./assets/images/project-design/stories/story-d.png)
+
 3. Features
 4. future features
 
@@ -39,6 +56,11 @@ Integrate payment processor
 
 5. Typography and color scheme
 
+Inspiration of the color scheme came from the [uber](https://www.uber.com/es/en/ride/) website. 
+
+![color selection image](./assets/images/nav/color.png)
+
+
 
 
 6. wireframes
@@ -46,38 +68,49 @@ Integrate payment processor
 DESKTOP PAGES
 
 a) Home page
-![wireframe for desktop home page](./assets/project-design/wireframes/wf-dt-home.png)
+
+![wireframe for desktop home page](./assets/images/project-design/wireframes/wf-dt-home.png)
 
 b) Food detail page
-![wireframe for desktop detail page](./assets/project-design/wireframes/wf-dt-details.png)
+
+![wireframe for desktop detail page](./assets/images/project-design/wireframes/wf-dt-details.png)
 
 c) Contact Page
-![wireframe for desktop contact page](./assets/project-design/wireframes/wf-dt-contact.png)
+
+![wireframe for desktop contact page](./assets/images/project-design/wireframes/wf-dt-contact.png)
 
 TABLET PAGES
 
 a) Home page
-![wireframe for tablet home page](./assets/project-design/wireframes/wf-tab-home.png)
 
-b) Food detail page
-![wireframe for tablet detail page](./assets/project-design/wireframes/wf-tab-details.png)
+![wireframe for tablet home page](./assets/images/project-design/wireframes/wf-tab-home.png)
+
+b) Food detail 
+
+![wireframe for tablet detail page](./assets/images/project-design/wireframes/wf-tab-details.png)
 
 c) Contact Page
-![wireframe for tablet contact page](./assets/project-design/wireframes/wf-tab-contact.png)
+
+![wireframe for tablet contact page](./assets/images/project-design/wireframes/wf-tab-contact.png)
 
 MOBILE PAGES
 
 a) Home page
-![wireframe for mobile home page](./assets/project-design/wireframes/wf-mob-home.png)
+
+![wireframe for mobile home page](./assets/images/project-design/wireframes/wf-mob-home.png)
 
 b) Food detail page
-![wireframe for mobile detail page](./assets/project-design/wireframes/wf-mob-details.png)
+
+![wireframe for mobile detail page](./assets/images/project-design/wireframes/wf-mob-details.png)
 
 c) Contact Page
-![wireframe for mobile contact page](./assets/project-design/wireframes/wf-mob-contact.png)
 
-===== Before Code/implementation ===
+![wireframe for mobile contact page](./assets/images/project-design/wireframes/wf-mob-contact.png)
+
 7. Technology
+
+- The site is built on HTML and CSS
+
 8. testing
    8.1 code validation
    8.2 test cases (user story based with screenshots)
@@ -85,6 +118,15 @@ c) Contact Page
    8.4 supported screens and browsers
 9. Deployment
    9.1 via gitpod
+
+on the git terminal, run the following commands:
+
+```python
+git add .
+git commit -m "commit message"
+git push
+```
+
    9.2 via github pages
 
 10. Version history
@@ -101,32 +143,31 @@ ver2: release date 25/09/2022
 Contributors:
 
 IMAGES AND RECIPE:
-pinterest
-Top Ten Uganda
-Nnyonyi.com
-newvision.co.ug
-ni;epost.co.ug
-Africa food Network
-alamy.com
-tourguideuganda.com
-https://sarasglobalcooking.blogspot.com/
-https://www.alamy.com/
-daily monitor uganda
-https://4foodssakeeat.wordpress.com/
-wikipedia
-https://www.tasteatlas.com/
-chillies.co.ug
+- pinterest
+- Top Ten Uganda
+- Nnyonyi.com
+- newvision.co.ug
+- ni;epost.co.ug
+- Africa food Network
+- alamy.com
+- tourguideuganda.com
+- https://sarasglobalcooking.blogspot.com/
+- https://www.alamy.com/
+- daily monitor uganda
+- https://4foodssakeeat.wordpress.com/
+- wikipedia
+- https://www.tasteatlas.com/
+- chillies.co.ug
 
 11. software used
-software:
--google lens
--paint 3d
--photos
--balsamick
--google develop tools
--gitpod
--github
--firefox
--windows snipping tool
--https://websitemockupgenerator.com/
--https://www.img2go.com/
+- google lens
+- paint 3d
+- photos
+- balsamick
+- google developer tools
+- gitpod
+- github
+- firefox and google chrome
+- windows snipping tool
+- https://websitemockupgenerator.com/
+- https://www.img2go.com/
