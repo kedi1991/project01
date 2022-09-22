@@ -213,6 +213,170 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.nav_img_original {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    text-align: center;
+}
+
+#events_shadow:hover {
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#dinner_shadow:hover {
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#lunch_shadow:hover {
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#breakfast_shadow:hover {
+    color: honeydew;
+    font: 2em bolder;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#div_food_detail_left {
+    background: url("/assets/images/img_event_cover.jpg") no-repeat;
+    background-size: cover;
+}
+
+/**Styles for the contact page**/
+#div-contact {
+    display: grid;
+    margin: 5em;
+    padding: 1em;
+    font-size: 1.6em;
+
+    
+        background-color: rgba(0,0,0,.1);
+        border-radius: .5em;
+        font-weight: 600;
+    
+}
+form input, textarea, select{
+    background-color: rgba(0,0,33,.1);
+    border: none;
+    border-radius: 0.3em;
+}
+
+
+#contact-left {
+    margin-right: .5em;
+}
+
+#contact-right {
+    margin-left: .5em;
+}
+
+#div-contact input {
+    font-size: .8em;
+    width: 100%;
+    line-height: 1.6;
+}
+
+#div-contact select {
+    font-size: .8em;
+    height: 1.9em;
+    width: 100%;
+}
+
+#div-contact-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1em;
+}
+
+#div-contact-bottom {
+    display: grid;
+    grid-template-columns: 100%;
+}
+#contact-title{
+    font-family: cursive;
+}
+textarea {
+    font-size: 1.2em;
+    resize: vertical;
+    height: 10em;
+}
+
+button {
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 0.5em;
+    border: none;
+    border-radius: 0.2em;
+    background-color: black;
+    color: white;
+}
+
+/***Styling for the detailed food items**/
+.foods-template {
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: 50% 50%;
+}
+
+.food-box {
+    background-color: #eeeaea;
+    border-radius: .6em;
+    margin: .3em;
+    min-height: 20em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 20%;
+}
+
+#food-img {
+    margin: .5em;
+}
+
+#food-content {
+    margin: .3em;
+    font-size: 1.5em;
+}
+
+#food-content label {
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#food-cost {
+    font-size: 2.6em;
+    font-weight: bolder;
+    margin: 0 auto;
+    grid-column: 1 / span 2;
+    grid-row: second-line / 2;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin-top: auto;
+    text-align: center;
+}
+
+
 @media screen and (max-width:1080px) {
     body {
         width: 95%;
@@ -398,173 +562,20 @@ p {
     #section_nav {
         height: auto;
     }
-
+   
     #div-contact-top{
-        grid-template-columns: 100%;
+        grid-template: none;
+        flex-direction: column;
+    }
+    #contact-right {
+        margin-left: 0;
+    }
+    #contact-left {
+        margin-right: 0;
+    }
+    #div-contact{
+        margin: 0;
     }
 }
 
 /**End of media queries**/
-
-.nav_img_original {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: honeydew;
-    font: 2em bolder;
-    width: 100%;
-    text-align: center;
-}
-
-#events_shadow:hover {
-    color: honeydew;
-    font: 2em bolder;
-    width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#dinner_shadow:hover {
-    color: honeydew;
-    font: 2em bolder;
-    width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#lunch_shadow:hover {
-    color: honeydew;
-    font: 2em bolder;
-    width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#breakfast_shadow:hover {
-    color: honeydew;
-    font: 2em bolder;
-    width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#div_food_detail_left {
-    background: url("/assets/images/img_event_cover.jpg") no-repeat;
-    background-size: cover;
-}
-
-/**Styles for the contact page**/
-#div-contact {
-    display: grid;
-    margin: 5em;
-    padding: 1em;
-    font-size: 1.6em;
-
-    
-        background-color: rgba(0,0,0,.1);
-        border-radius: .5em;
-        font-weight: 600;
-    
-}
-form input, textarea, select{
-    background-color: rgba(0,0,33,.1);
-    border: none;
-    border-radius: 0.3em;
-}
-
-
-#contact-left {
-    margin-right: .5em;
-}
-
-#contact-right {
-    margin-left: .5em;
-}
-
-#div-contact input {
-    font-size: .8em;
-    width: 100%;
-    line-height: 1.6;
-}
-
-#div-contact select {
-    font-size: .8em;
-    height: 1.9em;
-    width: 100%;
-}
-
-#div-contact-top {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 1em;
-}
-
-#div-contact-bottom {
-    display: grid;
-    grid-template-columns: 100%;
-}
-#contact-title{
-    font-family: cursive;
-}
-textarea {
-    font-size: 1.2em;
-    resize: vertical;
-    height: 10em;
-}
-
-button {
-    width: 5em;
-    height: 2em;
-    font-size: 1em;
-    margin-top: 0.5em;
-    border: none;
-    border-radius: 0.2em;
-    background-color: black;
-    color: white;
-}
-
-/***Styling for the detailed food items**/
-.foods-template {
-    display: grid;
-    padding: 0 auto;
-    grid-template-columns: 50% 50%;
-}
-
-.food-box {
-    background-color: #eeeaea;
-    border-radius: .6em;
-    margin: .3em;
-    min-height: 20em;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 80% 20%;
-}
-
-#food-img {
-    margin: .5em;
-}
-
-#food-content {
-    margin: .3em;
-    font-size: 1.5em;
-}
-
-#food-content label {
-    font-size: 1.2em;
-    font-weight: bolder;
-    font-family: cursive;
-}
-
-#food-cost {
-    font-size: 2.6em;
-    font-weight: bolder;
-    margin: 0 auto;
-    grid-column: 1 / span 2;
-    grid-row: second-line / 2;
-    width: 100%;
-    background-color: #e5e5e5;
-    margin-top: auto;
-    text-align: center;
-}
