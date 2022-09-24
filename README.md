@@ -19,7 +19,8 @@ This site was designed to enable the users;
 - find their way to any page using constantly available links to all pages wherever they are.
 - view all features of the website by carefully selecting colors, pictures, fonts and styles that will not obstract the view of the users while they navigate the site.
 - report any disatisfaction with service to the owners of the restaurant using an easily accessible form in the header
-- make requests through a contct form and schedule one-on-one engagements.
+- make requests through a contact form and schedule one-on-one engagements.
+- to navigate the site with ease on any device and operating system as long as they have internet connectivity. 
 
 <h2>3. Features</h2>
 
@@ -115,9 +116,7 @@ All html elements where tested for intended functionality, all links where teste
 
 The overall quality of the html, and css code was checked using the [html validator](https://validator.w3.org/) and [jigsaw](https://jigsaw.w3.org/css-validator/validator/) online tools respectively.
 
-<h3>8.2 test cases (user story based with screenshots)</h3>
-
-<h3> 8.3 fixed bugs</h3>
+<h3> 8.2 fixed bugs</h3>
 
 Sample errors found on html code were fixed as shown below
 
@@ -132,7 +131,7 @@ Errors found on the css stylesheet were fixed as shown below
 ![html errors on validator](./assets/images/project-design/tests/css-pass.png)
 <br>
 
-<h3>8.4 supported screens and browsers</h3>
+<h3>8.3 supported screens and browsers</h3>
  
 The site was tested on the browsers listed below
 
@@ -159,7 +158,7 @@ The site was tested on the browsers listed below
 
 ![performance test](./assets/images/project-design/tests/lighthouse-test.png)
 
-<h2>9. Deployment</h2>
+<h2>9. Forking and Deployment</h2>
 
 <h3>9.1 Forking the project</h3>
 This will make a copy of the project on your github repository.
@@ -190,33 +189,46 @@ Finally, run `git push` to push the changes to yout github repository.
 
 <h2>10. Version history</h2>
 
-ver1: release date 17/09/2022
-
-ver2: release date 25/09/2022
-- fixed media queries for mobile and tablet display sizes
-- edited the contact form 
+| Version No. | Features                                                                                                                                                                                                                                          | Release notes                                                                                                                                                                     | Known bugs                                                                                                              |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| 1.0         | - Header & footer<br> - Home (index) page, Lunch, dinner, events, breakfast, contact page<br> - Site search bar in the top navigation<br> - Top navigation bar<br> - Image navigation bar<br> - Social media links and contacts in the footer<br> | Release date: 17/09/2022<br>                                                                                                                                                      | - The contact form page lacks CSS styling<br> - Form submission is not possible<br> - Non responsive to mobile view<br> |
+| 2.0 beta    | - Header & footer<br> - Home (index) page, Lunch, dinner, events, breakfast, contact page<br> - Site search bar in the top navigation<br> - Top navigation bar<br> - Image navigation bar<br> - Social media links and contacts in the footer<br> | - Release date: 24/09/2022<br> - Fixed media queries in the CSS to improve and fix responsiveness on all device screens<br> - Styled the contact form<br> - Code improvements<br> | - No form submission confirmation message<br> - Search bar on top nav bar non-functional<br>                            |
+| 2.1 Final   | - Header & footer<br> - Home (index) page, Lunch, dinner, events, breakfast, contact, submitted page<br> - Top navigation bar<br> - Image navigation bar<br> - Social media links and contacts in the footer<br>                                  | - Release date: 25/09/2022 - Created form submission feedback page<br> - Removed search bar from the top navigation                                                                   | - None<br>                                                                                                                |
 
 <h2>11. Software used</h2>
 
-- google lens
-- paint 3d
-- photos
-- balsamick
-- google developer tools
-- gitpod
-- github
-- firefox and google chrome
-- windows snipping tool
+- Google lens for identification of image origin
+- Windows Paint 3d
+- Windows photos
+- Balsamiq wireframes
+- Google developer tools
+- Gitpod
+- Github
+- Firefox, Google chrome and Edge
+- Windows snipping tool
 - https://websitemockupgenerator.com/
 - https://www.img2go.com/
 - [Markdown tables generator](https://www.tablesgenerator.com/markdown_tables)
 
+<h2>12. UI Design history</h2>
 
-<h2>12. credits</h2>
+![stage 1](./assets/images/project-design/wireframes/wf-dt-details.png)
 
-**Contributors:**
+![git pages deploy settings](./assets/images/project-design/aob/second.jpg)
 
-**Images and recipe from;**
+![git pages deploy settings](./assets/images/project-design/aob/third.jpg)
+
+![git pages deploy settings](./assets/images/project-design/aob/fourth.jpg)
+
+![git pages deploy settings](./assets/images/project-design/aob/fifth.jpg)
+
+![git pages deploy settings](./assets/images/project-design/aob/sixth.jpg)
+
+![git pages deploy settings](./assets/images/project-design/aob/seventh.jpg)
+
+<h2>13. credits</h2>
+
+**Images and recipe from:**
 - pinterest
 - Top Ten Uganda
 - Nnyonyi.com
@@ -232,3 +244,10 @@ ver2: release date 25/09/2022
 - wikipedia
 - https://www.tasteatlas.com/
 - chillies.co.ug
+
+**Thanks to:**
+- CI personal mentor - Harry Dhillon for professional guidance
+- The CI jul-2022-5p class and tutors
+- My wife for letting me code in peace :) 
+
+
