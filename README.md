@@ -4,13 +4,22 @@
 A restaurant with all the Ugandan food you miss!
 Visit our [website](https://kedi1991.github.io/project01/) and check out our amazing dishes at good rates.
 
-
 <h2>1. Purpose of the project</h2>
 
 Project aims to sell Ugandan dishes to the people of Alicante, Spain while spreading the culture of the Ugandan people. With this, there will be an indirect boost in tourism by those who would like to visit Uganda and have an experience.
 
 <h2>2. User stories</h2>
 
+This site was designed to enable the users;
+- make a choice of foods from the restaurant.
+- access all pages easily even with poor internet connectivity.
+- easily find contact information and social media pages of Kedi's restaurant on facebook, twitter, instagram and youtube.
+- see the design of the restaurant on the homepage/ welcome screen.
+- navigate through all kinds of foods that have been categorized with simplicity using the main image navigation bar.
+- find their way to any page using constantly available links to all pages wherever they are.
+- view all features of the website by carefully selecting colors, pictures, fonts and styles that will not obstract the view of the users while they navigate the site.
+- report any disatisfaction with service to the owners of the restaurant using an easily accessible form in the header
+- make requests through a contct form and schedule one-on-one engagements.
 
 <h2>3. Features</h2>
 
@@ -146,19 +155,24 @@ The site was tested on the browsers listed below
 
 ![responsiveness test Mobile physical](./assets/images/project-design/tests/screen-test-nokia.png)
 
+**Page loading performace was tested using Lighthouse. Results shown below**
+
+![performance test](./assets/images/project-design/tests/lighthouse-test.png)
+
 <h2>9. Deployment</h2>
 
 <h3>9.1 Via gitpod</h3>
 
 On the git terminal, run the following commands:
 
-```python
-git add .
-git commit -m "commit message"
-git push
-```
+<h3>9.2 Via github pages</h3>
 
-   <h3>9.2 Via github pages</h3>
+1. While on the project root folder, go to **settings** .
+2. Navigate to the **pages** tab on the left navigation panel.
+3. Go to **Build and deployment** > **Branch**. Select **main** then click **save**.
+4. At the top just below the **GitHub Pages** heading, you will be notified of successful deployment as shown in the image. This may take about 60 seconds to reflect. Incase It takes longer, try refreshing the page.
+
+![git pages deploy settings](./assets/images/project-design/stories/deploy-page.png)
 
 <h2>10. Version history</h2>
 
@@ -169,6 +183,7 @@ ver2: release date 25/09/2022
 - edited the contact form 
 
 <h2>11. Software used</h2>
+
 - google lens
 - paint 3d
 - photos
