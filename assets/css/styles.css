@@ -26,9 +26,6 @@ h2 {
     justify-content: space-between;
     padding: .5em;
 }
-input[type="search"] {
-    width: 7em;
-}
 header div {
     height: 2em;
     margin-top: 1.7em;
@@ -80,6 +77,7 @@ ul li {
 }
 ul {
     margin-top: 2px;
+    padding: 0;
     text-align: center;
 }
 body {
@@ -103,11 +101,6 @@ body {
     border-radius: .4em;
     font-weight: bolder;
     background-color: rgb(61, 61, 60);
-}
-input[type="search"] {
-    font-size: .7em;
-    border: 1px rgb(61, 61, 60) solid;
-    border-radius: .4em;
 }
 #footer-nav {
     text-decoration: none;
@@ -225,7 +218,7 @@ p {
     background: url("/assets/images/img_event_cover.jpg") no-repeat;
     background-size: cover;
 }
-/**Styles for the contact page**/
+/**Styles for the contact pages**/
 #div-contact {
     display: grid;
     margin: 5em;
@@ -283,7 +276,16 @@ button {
     background-color: black;
     color: white;
 }
-
+#div-contact-submitted p{
+        font-size: 1em;
+        text-align: center;
+}
+#div-contact a{
+    text-decoration: none;
+}
+#div-contact span{
+    color: red;
+}
 /***Styling for the detailed food items**/
 .foods-template {
     display: grid;
