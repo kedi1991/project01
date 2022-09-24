@@ -161,11 +161,25 @@ The site was tested on the browsers listed below
 
 <h2>9. Deployment</h2>
 
-<h3>9.1 Via gitpod</h3>
+<h3>9.1 Forking the project</h3>
+This will make a copy of the project on your github repository.
 
-On the git terminal, run the following commands:
+1. Log into GitHub and locate your repository.
+2. On the top left corner, search for "kedi1991/project01" and select it from the results.
+3. On the right hand side of the page select  **fork** to create and copy of the original under your repository
 
-<h3>9.2 Via github pages</h3>
+![forking the project](./assets/images/project-design/stories/forking.png)
+
+<h3>9.2 Via gitpod</h3>
+
+To deploy the project using gitpod, run the command `add .` followed by `git commit -m "descripton of code changes to push"` 
+Finally, run `git push` to push the changes to yout github repository.
+
+![Gitpod deploy commands](./assets/images/project-design/stories/gitpod-deploy.png)
+
+![Git deploy OK result](./assets/images/project-design/stories/gitpod-deploy-result.png)
+
+<h3>9.3 Via github pages</h3>
 
 1. While on the project root folder, go to **settings** .
 2. Navigate to the **pages** tab on the left navigation panel.
