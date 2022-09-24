@@ -4,20 +4,18 @@
 .active {
     border-bottom: 0.7em green solid;
 }
-
 .active-nav {
     border: 1px rgb(61, 61, 60) solid;
     border-radius: .4em;
     font-weight: bolder;
     background-color: rgb(61, 61, 60);
 }
-#header h1{
+#header h2{
     font-size: xxx-large;
 }
-h1 {
+h2 {
     font-family: system-ui;
 }
-
 #header {
     grid-template-columns: 60% 40%;
     background-color: rgb(0, 0, 0);
@@ -39,7 +37,6 @@ header div {
     font-size: x-large;
     text-align: right;
 }
-
 #section_nav {
     position: relative;
     background-color: #e0dddd;
@@ -49,18 +46,15 @@ header div {
     font-size: 1em;
     flex-grow: 1;
 }
-
 #section_main {
     min-height: 40em;
     margin-bottom: 10px;
     padding: 0.7em;
 }
-
 .main-background {
     background: url("../images/events/main-photo.jpg") no-repeat;
     background-size: cover;
 }
-
 #footer {
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -68,32 +62,26 @@ header div {
     color: aliceblue;
     font-size: 1em;
 }
-
 #footer-nav-container {
     text-align: right;
     padding: .2em;
     font-weight: bolder;
 }
-
 ul li {
     display: inline;
 }
-
 #footer ul li a {
     color: aliceblue;
     padding: .2em 1em .2em 1em;
     font-weight: bold;
 }
-
 #footer div ul {
     margin: .2em;
 }
-
 ul {
     margin-top: 2px;
     text-align: center;
 }
-
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
@@ -102,32 +90,25 @@ body {
     background: url("../images/nav/img_body.png") no-repeat fixed;
     background-size: cover;
 }
-
 #header_nav {
     flex-direction: row;
 }
-
 #header_nav a {
     text-decoration: none;
     color: whitesmoke;
     margin: 0 .4em;
 }
-
 #header_nav a:hover {
     border: 1px rgb(61, 61, 60) solid;
     border-radius: .4em;
     font-weight: bolder;
     background-color: rgb(61, 61, 60);
 }
-
 input[type="search"] {
     font-size: .7em;
     border: 1px rgb(61, 61, 60) solid;
     border-radius: .4em;
-    background-color: rgb(61, 61, 60) solid;
-    ;
 }
-
 #footer-nav {
     text-decoration: none;
     color: aliceblue;
@@ -135,24 +116,20 @@ input[type="search"] {
     box-sizing: border-box;
     text-align: right;
 }
-
 #footer-nav:hover {
     border: 1px rgb(61, 61, 60) solid;
     border-radius: .4em;
     background-color: rgb(61, 61, 60);
 }
-
 h2 {
-    font-size: 2.2em;
+    font-size: 1.2em;
     margin: 0;
 }
-
 p {
     font-size: 2.2em;
     padding: .6em;
     text-align: justify;
 }
-
 #div_nav_center {
     display: flex;
     justify-content: space-evenly;
@@ -160,47 +137,39 @@ p {
     flex-direction: row;
     height: 83%;
 }
-
 .food_main {
     display: flex;
     width: 100%;
     height: 100%;
     text-align: center;
 }
-
 #div_nav_center a {
     width: 24%;
     text-decoration: none;
     height: 100%;
 }
-
 #breakfast {
     position: relative;
     background: url("../images/nav/img_breakfast.webp") no-repeat;
     background-size: cover;
 }
-
 #lunch {
     background: url("../images/nav/img_lunch.jpg") no-repeat;
     background-size: cover;
 }
-
 #dinner {
     background: url("../images/nav/img_dinner.jpg") no-repeat;
     background-size: cover;
 }
-
 #events {
     background: url("../images/nav/img_events.jpg") no-repeat;
     background-size: cover;
 }
-
 #div_food_detail_left {
     height: 100%;
     width: 49%;
     float: left;
 }
-
 #div_food_detail_right {
     color: white;
     font-family: cursive;
@@ -212,15 +181,14 @@ p {
     float: right;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .nav_img_original {
     background-color: rgba(0, 0, 0, 0.5);
     color: honeydew;
     font: 2em bolder;
     width: 100%;
     text-align: center;
+    padding-top: 30%;
 }
-
 #events_shadow:hover {
     color: honeydew;
     font: 2em bolder;
@@ -229,7 +197,6 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 #dinner_shadow:hover {
     color: honeydew;
     font: 2em bolder;
@@ -238,7 +205,6 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 #lunch_shadow:hover {
     color: honeydew;
     font: 2em bolder;
@@ -247,7 +213,6 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 #breakfast_shadow:hover {
     color: honeydew;
     font: 2em bolder;
@@ -256,58 +221,46 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 #div_food_detail_left {
     background: url("/assets/images/img_event_cover.jpg") no-repeat;
     background-size: cover;
 }
-
 /**Styles for the contact page**/
 #div-contact {
     display: grid;
     margin: 5em;
     padding: 1em;
     font-size: 1.6em;
-
-    
-        background-color: rgba(0,0,0,.1);
-        border-radius: .5em;
-        font-weight: 600;
-    
+    background-color: rgba(0,0,0,.1);
+    border-radius: .5em;
+    font-weight: 600;
 }
 form input, textarea, select{
     background-color: rgba(0,0,33,.1);
     border: none;
     border-radius: 0.3em;
 }
-
-
 #contact-left {
     margin-right: .5em;
 }
-
 #contact-right {
     margin-left: .5em;
 }
-
 #div-contact input {
     font-size: .8em;
     width: 100%;
     line-height: 1.6;
 }
-
 #div-contact select {
     font-size: .8em;
     height: 1.9em;
     width: 100%;
 }
-
 #div-contact-top {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 1em;
 }
-
 #div-contact-bottom {
     display: grid;
     grid-template-columns: 100%;
@@ -320,7 +273,6 @@ textarea {
     resize: vertical;
     height: 10em;
 }
-
 button {
     width: 5em;
     height: 2em;
@@ -335,10 +287,9 @@ button {
 /***Styling for the detailed food items**/
 .foods-template {
     display: grid;
-    padding: 0 auto;
+    padding: 0;
     grid-template-columns: 50% 50%;
 }
-
 .food-box {
     background-color: #eeeaea;
     border-radius: .6em;
@@ -348,23 +299,22 @@ button {
     grid-template-columns: 50% 50%;
     grid-template-rows: 80% 20%;
 }
-
-#food-img {
+.food-img {
     margin: .5em;
 }
-
-#food-content {
+.food-img img{
+    width: 100%;
+}
+.food-content {
     margin: .3em;
     font-size: 1.5em;
 }
-
-#food-content label {
+.food-content label {
     font-size: 1.2em;
     font-weight: bolder;
     font-family: cursive;
 }
-
-#food-cost {
+.food-cost {
     font-size: 2.6em;
     font-weight: bolder;
     margin: 0 auto;
@@ -376,7 +326,7 @@ button {
     text-align: center;
 }
 
-
+/*start of media queries*/
 @media screen and (max-width:1080px) {
     body {
         width: 95%;
@@ -384,12 +334,9 @@ button {
     #div_food_detail_right{
         font-size: smaller;
     }
-
-
     #section_nav {
         height: 13em;
     }
-
     #div_nav_center {
         font-size: .6em;
         height: 77%;
@@ -397,12 +344,10 @@ button {
     #food-content{
         font-size: 1.2em;
     }
-   
-    #header h1{
+    #header h2{
         margin-top: 0;
     }
 }
-
 @media screen and (max-width:788px) {
     body {
         font-size: x-small;
@@ -415,16 +360,14 @@ button {
     #section_nav {
         height: 13em;
     }
-
     #div_nav_center {
         font-size: xx-small;
         height: 77%;
     }
-    
     #header_nav {
         font-size: medium;
     }
-    #header h1{
+    #header h2{
         font-size: xx-large;
         margin-top: 0;
     }
@@ -437,20 +380,17 @@ button {
     #div_food_detail_right{
         font-size: xx-small;
     }
-
     #section_nav {
         height: 13em;
     }
-
     #div_nav_center {
         font-size: xx-small;
         height: 77%;
     }
-    
     #header_nav {
         font-size: medium;
     }
-    #header h1{
+    #header h2{
         font-size: xx-large;
         margin-top: 0;
     }
@@ -463,11 +403,9 @@ button {
     #div_food_detail_right{
         font-size: smaller;
     }
-
     #section_nav {
         height: 13em;
     }
-
     #div_nav_center {
         font-size: .6em;
         height: 77%;
@@ -478,12 +416,11 @@ button {
     #header_nav {
         font-size: X-small;
     }
-    #header h1{
+    #header h2{
         font-size: large;
         margin-top: 0;
     }
 }
-
 @media screen and (max-width:550px) {
     body {
         font-size: x-small;
@@ -492,11 +429,9 @@ button {
     #div_food_detail_right{
         font-size: smaller;
     }
-
     #section_nav {
         height: 13em;
     }
-
     #div_nav_center {
         font-size: .6em;
         height: 77%;
@@ -507,19 +442,16 @@ button {
     #header_nav {
         font-size: X-small;
     }
-    #header h1{
+    #header h2{
         font-size: large;
         margin-top: 0;
     }
 }
-
 @media screen and (max-width:460px) {
-
     body {
         width: 95%;
         font-size: x-small;
     }
-
     #header{
         display: grid;
         grid-template-columns: 100%;
@@ -530,12 +462,11 @@ button {
         height: auto;
         margin-top: .1em;
         font-size: initial;
-
     }
     #header_nav {
         text-align: center;
     }
-    #header h1{
+    #header h2{
         font-size: xx-large;
     }
     #div_nav_center {
@@ -558,11 +489,9 @@ button {
         margin: 0.5em;
         overflow: hidden;
     }
-
     #section_nav {
         height: auto;
     }
-   
     #div-contact-top{
         grid-template: none;
         flex-direction: column;
@@ -576,6 +505,8 @@ button {
     #div-contact{
         margin: 0;
     }
+    .nav_img_original {
+        padding-top: 5%;
+    }
 }
 
-/**End of media queries**/

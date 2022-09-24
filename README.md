@@ -1,6 +1,8 @@
 **<h1>Kedi's restaurant</h1>**
 ![mockup for desktop home page](./assets/images/project-design/stories/mockup.png)
 
+A restaurant with all the Ugandan food you miss!
+Visit our [website](https://kedi1991.github.io/project01/) and check out our amazing dishes at good rates.
 
 **<h2>Table of Contents</h2>**
 <hr>
@@ -23,13 +25,16 @@
 10. Releases
 11. credits
 <br>
+<br>
 
-
-1. Purpose of the project
+**1. Purpose of the project**
 
 Project aims to sell Ugandan dishes to the people of Alicante, Spain while spreading the culture of the Ugandan people. With this, there will be an indirect boost in tourism by those who would like to visit Uganda and have an experience.
 
-2. user stories
+**2. user stories**
+
+
+**3. Features**
 
 The site is organised with graphical content to aid new users in navigating the site with ease.
 The home page contains a visible header with navigation (A) to a contact form as well as the same home page incase the user is on another page. Below the Header, we have an image navigation bar (B) with links to all 4 categories of foods (Breakfast, lunch and dinner - having the same offers, and Events- parties or other ocassions) as shown in the images below.
@@ -47,25 +52,26 @@ In case of any need of contacting the restaurant, there are contact details and 
 
 ![footer image](./assets/images/project-design/stories/story-d.png)
 
-3. Features
-4. future features
 
-Create shopping cart
-Enable sign-up and Login
-Integrate payment processor
+**4. future features**
 
-5. Typography and color scheme
+- Create shopping cart
+- Enable sign-up and Login
+- Integrate payment processor
+
+**5. Typography and color scheme**
 
 Inspiration of the color scheme came from the [uber](https://www.uber.com/es/en/ride/) website. 
 
 ![color selection image](./assets/images/nav/color.png)
 
+The site also uses [google fonts](https://fonts.google.com/) for the text content
 
+Additionally, [font-awesome](https://fontawesome.com/) is used for social media icons in the footer
 
+**6. wireframes**
 
-6. wireframes
-
-DESKTOP PAGES
+**DESKTOP PAGES**
 
 a) Home page
 
@@ -79,7 +85,7 @@ c) Contact Page
 
 ![wireframe for desktop contact page](./assets/images/project-design/wireframes/wf-dt-contact.png)
 
-TABLET PAGES
+**TABLET PAGES**
 
 a) Home page
 
@@ -93,7 +99,7 @@ c) Contact Page
 
 ![wireframe for tablet contact page](./assets/images/project-design/wireframes/wf-tab-contact.png)
 
-MOBILE PAGES
+**MOBILE PAGES**
 
 a) Home page
 
@@ -107,19 +113,36 @@ c) Contact Page
 
 ![wireframe for mobile contact page](./assets/images/project-design/wireframes/wf-mob-contact.png)
 
-7. Technology
+**7. Technology**
 
-- The site is built on HTML and CSS
+- The site is built on HTML and CSS.
 
-8. testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
-9. Deployment
+**8. testing**
+
+All html pages were tested using the [html validator](https://validator.w3.org/) and errors found were fixed as shown below
+
+![html errors on validator](./assets/images/project-design/tests/html-error.png)
+
+
+![html errors corrected](./assets/images/project-design/tests/html-pass.png)
+<br>
+The css stylesheet code was tested using [jigsaw](https://jigsaw.w3.org/css-validator/validator) and errors found were fixed as shown below
+
+![html errors on validator](./assets/images/project-design/tests/css-errors.png)
+
+![html errors on validator](./assets/images/project-design/tests/css-pass.png)
+<br>
+
+The tests were conducted on google chrome browser for desktop. Sample errors and states after resolution are shown below
+
+![html errors on validator](./assets/images/project-design/tests/html-error.png)
+
+<br>
+
+**9. Deployment**
    9.1 via gitpod
 
-on the git terminal, run the following commands:
+On the git terminal, run the following commands:
 
 ```python
 git add .
@@ -129,7 +152,7 @@ git push
 
    9.2 via github pages
 
-10. Version history
+**10. Version history**
 
 ver1: release date 17/09/2022
 
@@ -138,16 +161,16 @@ ver2: release date 25/09/2022
 - edited the contact form 
 
 
-10. credits
+**10. credits**
 
-Contributors:
+**Contributors:**
 
-IMAGES AND RECIPE:
+**Images and recipe from;**
 - pinterest
 - Top Ten Uganda
 - Nnyonyi.com
 - newvision.co.ug
-- ni;epost.co.ug
+- nilepost.co.ug
 - Africa food Network
 - alamy.com
 - tourguideuganda.com
@@ -159,7 +182,7 @@ IMAGES AND RECIPE:
 - https://www.tasteatlas.com/
 - chillies.co.ug
 
-11. software used
+**11. Software used**
 - google lens
 - paint 3d
 - photos
