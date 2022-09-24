@@ -133,9 +133,7 @@ The css stylesheet code was tested using [jigsaw](https://jigsaw.w3.org/css-vali
 ![html errors on validator](./assets/images/project-design/tests/css-pass.png)
 <br>
 
-The tests were conducted on google chrome browser for desktop. Sample errors and states after resolution are shown below
-
-![html errors on validator](./assets/images/project-design/tests/html-error.png)
+The tests were conducted on google chrome browser for desktop.
 
 <br>
 
